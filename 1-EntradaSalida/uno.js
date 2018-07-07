@@ -1,13 +1,13 @@
-/*se ingresan 3 numeros, se muestra la suma de los 3, el promedio de los tres y la resta de los tres en un unico alert*/
+/*se ingresan 3 numeros, se muestra la suma de los 3, el promedio de los tres y la resta de los tres en un unico alert	*/
 function mostrar()
 {
-var base;
-var altura;
-var superficie;
-var perimetro;
+var numeroUno;
+var numeroDos;
+var numeroTres;
 
-base=prompt("Base del triangulo");
-altura=prompt("Altura del triangulo");
+numeroUno=prompt("Ingrese 1er Numero");
+numeroDos=prompt("Ingrese 2do Numero");
+numeroTres=prompt("Ingrese 3er Numero");
 
 base=document.getElementById('base').value;
 base=parseInt(base);
