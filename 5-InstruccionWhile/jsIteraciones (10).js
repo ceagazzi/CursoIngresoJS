@@ -9,7 +9,7 @@ function mostrar()
 	while(respuesta!="no")
 	{
 		
-	
+	document.write("Hola");
 	}
 
 
